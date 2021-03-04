@@ -9,7 +9,6 @@ export default class UserState extends VuexModule {
   @Mutation
   setUser(user: UserType) {
     this.user = user;
-    console.log(user); // whb-lg
   }
 
   @Action({ commit: "setUser" })

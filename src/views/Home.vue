@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
-    <p v-if="userName">{{userName}}</p>
+    <p v-if="userName">{{ userName }}</p>
     <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
   </div>
 </template>
