@@ -19,7 +19,6 @@ files.keys().forEach(key => {
   if (key === "./index.ts") return;
   configArray = configArray.concat(files(key).default);
 });
-console.log(configArray); // whb-lg
 
 //注册所有的mock服务
 configArray.forEach(item => {

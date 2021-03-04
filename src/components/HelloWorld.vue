@@ -104,7 +104,6 @@
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
-import { getUser } from "@/resources/data";
 
 @Options({
   props: {
@@ -113,12 +112,6 @@ import { getUser } from "@/resources/data";
 })
 export default class HelloWorld extends Vue {
   msg!: string;
-
-  created() {
-    getUser().then(res => {
-      console.log(res.data); // whb-lg
-    });
-  }
 }
 </script>
 
